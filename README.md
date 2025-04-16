@@ -33,9 +33,9 @@ pip install -r requirements.txt
 
 ## ⚙️ Configuración
 
-Crear archivo `.env` en la raíz del proyecto con:
+Crear archivo `KEYS.txt` en la raíz del proyecto con:
 
-```env
+```txt
 PINECONE_API_KEY=tu_key_pinecone
 GITHUB_TOKEN=tu_token_github_education
 PINECONE_INDEX_NAME=nombre_indice_768d

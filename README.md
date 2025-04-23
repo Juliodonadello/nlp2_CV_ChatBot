@@ -33,18 +33,12 @@ pip install -r requirements.txt
 
 ## ⚙️ Configuración
 
-Crear archivo `KEYS.txt` en la raíz del proyecto con:
+Crear archivo `API_KEYS.txt` en la raíz del proyecto con:
 
 ```txt
 PINECONE_API_KEY=tu_key_pinecone
 GITHUB_TOKEN=tu_token_github_education
 PINECONE_INDEX_NAME=nombre_indice_768d
-```
-
-Crear archivo `API_KEYS.txt` con:
-
-```txt
-GITHUB_TOKEN=tu_token_github_education
 ```
 
 En Pinecone:
